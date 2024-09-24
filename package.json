@@ -1,5 +1,5 @@
 {
-  "name": "Caso_Estudio_Peliculas",
+  "name": "apirest",
   "version": "1.0.0",
   "description": "Api Rest",
   "main": "Servidor.js",
