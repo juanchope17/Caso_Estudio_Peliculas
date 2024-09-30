@@ -1,10 +1,10 @@
-const mongoose = require('mongoose');
-require('dotenv').config();
+const mongoose = require("mongoose");
+require("dotenv").config();
 
-mongoose.connect(process.env.DB_MONGO);
+mongoose.connect("mongodb://localhost:27017/");
 
 const connection = mongoose.connection;
 
-connection.once('open', () => {
-    console.log('Base de Datos conectada exitosamente a MongoDB');
+connection.once("open", () => {
+  console.log("Base de Datos conectada exitosamente a MongoDB");
 });

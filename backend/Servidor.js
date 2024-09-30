@@ -18,8 +18,8 @@ app.use(
 );
 
 async function main() {
-  await app.listen(process.env.PORT);
-  console.log(`Server on port ${process.env.PORT}, Congratulations`);
+  await app.listen(5001);
+  console.log(`Server on port 5001, Congratulations`);
 }
 
 app.get("/", (req, res) => {
